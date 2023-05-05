@@ -1,4 +1,4 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from '@reduxjs/toolkit'; // це замінює всю роботу з actionTypes, actionCreator, reducer
 
 const filterSlice = createSlice({
   name: 'filter',
@@ -12,3 +12,5 @@ const filterSlice = createSlice({
 
 export const { setFilter } = filterSlice.actions;
 export const filterReducer = filterSlice.reducer;
+
+// Діма Берестень
